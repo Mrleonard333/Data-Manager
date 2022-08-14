@@ -11,7 +11,7 @@ User = str()
 connection = mysql.connector.connect(
     host='localhost',
     user='root',
-    password=r'!@#$%%$#@!',
+    password=r'Senha',
     database='message_db'
 )
 cursor = connection.cursor()
